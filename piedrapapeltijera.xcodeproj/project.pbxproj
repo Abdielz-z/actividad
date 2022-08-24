@@ -15,6 +15,9 @@
 		8416FFC628B17EA70093B922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8416FFC428B17EA70093B922 /* LaunchScreen.storyboard */; };
 		8416FFD128B17EA70093B922 /* piedrapapeltijeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416FFD028B17EA70093B922 /* piedrapapeltijeraTests.swift */; };
 		8416FFDC28B17EA70093B922 /* piedrapapeltijeraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416FFDB28B17EA70093B922 /* piedrapapeltijeraUITests.swift */; };
+		84EB62F628B6816D0017A57C /* Juego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB62F528B6816D0017A57C /* Juego.swift */; };
+		84EB62FC28B683970017A57C /* Logica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB62FB28B683970017A57C /* Logica.swift */; };
+		84EB630728B68F180017A57C /* GanadorJuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB630628B68F180017A57C /* GanadorJuego.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		8416FFD728B17EA70093B922 /* piedrapapeltijeraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piedrapapeltijeraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8416FFDB28B17EA70093B922 /* piedrapapeltijeraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piedrapapeltijeraUITests.swift; sourceTree = "<group>"; };
 		8416FFDD28B17EA70093B922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EB62F528B6816D0017A57C /* Juego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Juego.swift; sourceTree = "<group>"; };
+		84EB62FB28B683970017A57C /* Logica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logica.swift; sourceTree = "<group>"; };
+		84EB630628B68F180017A57C /* GanadorJuego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanadorJuego.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		8416FFB828B17EA60093B922 /* piedrapapeltijera */ = {
 			isa = PBXGroup;
 			children = (
+				84EB62F228B680ED0017A57C /* Model */,
 				8416FFB928B17EA60093B922 /* AppDelegate.swift */,
 				8416FFBB28B17EA60093B922 /* SceneDelegate.swift */,
 				8416FFBD28B17EA60093B922 /* ViewController.swift */,
@@ -126,6 +133,32 @@
 				8416FFDD28B17EA70093B922 /* Info.plist */,
 			);
 			path = piedrapapeltijeraUITests;
+			sourceTree = "<group>";
+		};
+		84EB62F228B680ED0017A57C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84EB62FA28B683570017A57C /* Util */,
+				84EB62F428B6810E0017A57C /* ValueObject */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84EB62F428B6810E0017A57C /* ValueObject */ = {
+			isa = PBXGroup;
+			children = (
+				84EB62F528B6816D0017A57C /* Juego.swift */,
+				84EB630628B68F180017A57C /* GanadorJuego.swift */,
+			);
+			path = ValueObject;
+			sourceTree = "<group>";
+		};
+		84EB62FA28B683570017A57C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				84EB62FB28B683970017A57C /* Logica.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EB62F628B6816D0017A57C /* Juego.swift in Sources */,
 				8416FFBE28B17EA60093B922 /* ViewController.swift in Sources */,
 				8416FFBA28B17EA60093B922 /* AppDelegate.swift in Sources */,
 				8416FFBC28B17EA60093B922 /* SceneDelegate.swift in Sources */,
+				84EB62FC28B683970017A57C /* Logica.swift in Sources */,
+				84EB630728B68F180017A57C /* GanadorJuego.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
