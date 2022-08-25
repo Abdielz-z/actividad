@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840A044728B7C80500DD07A5 /* EntradaJugadaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A044628B7C80500DD07A5 /* EntradaJugadaTest.swift */; };
+		840A045328B7C8E900DD07A5 /* LogicaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A045228B7C8E900DD07A5 /* LogicaTest.swift */; };
 		8416FFBA28B17EA60093B922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416FFB928B17EA60093B922 /* AppDelegate.swift */; };
 		8416FFBC28B17EA60093B922 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416FFBB28B17EA60093B922 /* SceneDelegate.swift */; };
 		8416FFBE28B17EA60093B922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416FFBD28B17EA60093B922 /* ViewController.swift */; };
 		8416FFC128B17EA60093B922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8416FFBF28B17EA60093B922 /* Main.storyboard */; };
 		8416FFC328B17EA70093B922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8416FFC228B17EA70093B922 /* Assets.xcassets */; };
 		8416FFC628B17EA70093B922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8416FFC428B17EA70093B922 /* LaunchScreen.storyboard */; };
-		8416FFD128B17EA70093B922 /* piedrapapeltijeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416FFD028B17EA70093B922 /* piedrapapeltijeraTests.swift */; };
 		8416FFDC28B17EA70093B922 /* piedrapapeltijeraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416FFDB28B17EA70093B922 /* piedrapapeltijeraUITests.swift */; };
 		84EB62F628B6816D0017A57C /* Juego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB62F528B6816D0017A57C /* Juego.swift */; };
 		84EB62FC28B683970017A57C /* Logica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB62FB28B683970017A57C /* Logica.swift */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840A044628B7C80500DD07A5 /* EntradaJugadaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntradaJugadaTest.swift; sourceTree = "<group>"; };
+		840A045228B7C8E900DD07A5 /* LogicaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicaTest.swift; sourceTree = "<group>"; };
 		8416FFB628B17EA60093B922 /* piedrapapeltijera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piedrapapeltijera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8416FFB928B17EA60093B922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8416FFBB28B17EA60093B922 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +50,6 @@
 		8416FFC528B17EA70093B922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8416FFC728B17EA70093B922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8416FFCC28B17EA70093B922 /* piedrapapeltijeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piedrapapeltijeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8416FFD028B17EA70093B922 /* piedrapapeltijeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piedrapapeltijeraTests.swift; sourceTree = "<group>"; };
 		8416FFD228B17EA70093B922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8416FFD728B17EA70093B922 /* piedrapapeltijeraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piedrapapeltijeraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8416FFDB28B17EA70093B922 /* piedrapapeltijeraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piedrapapeltijeraUITests.swift; sourceTree = "<group>"; };
@@ -82,6 +84,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840A044428B7C7B800DD07A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				840A045128B7C8AC00DD07A5 /* Util */,
+				840A044528B7C7C700DD07A5 /* ValueObject */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		840A044528B7C7C700DD07A5 /* ValueObject */ = {
+			isa = PBXGroup;
+			children = (
+				840A044628B7C80500DD07A5 /* EntradaJugadaTest.swift */,
+			);
+			path = ValueObject;
+			sourceTree = "<group>";
+		};
+		840A045128B7C8AC00DD07A5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				840A045228B7C8E900DD07A5 /* LogicaTest.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		8416FFAD28B17EA60093B922 = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +147,7 @@
 		8416FFCF28B17EA70093B922 /* piedrapapeltijeraTests */ = {
 			isa = PBXGroup;
 			children = (
-				8416FFD028B17EA70093B922 /* piedrapapeltijeraTests.swift */,
+				840A044428B7C7B800DD07A5 /* Model */,
 				8416FFD228B17EA70093B922 /* Info.plist */,
 			);
 			path = piedrapapeltijeraTests;
@@ -304,7 +331,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8416FFD128B17EA70093B922 /* piedrapapeltijeraTests.swift in Sources */,
+				840A044728B7C80500DD07A5 /* EntradaJugadaTest.swift in Sources */,
+				840A045328B7C8E900DD07A5 /* LogicaTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

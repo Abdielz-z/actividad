@@ -19,8 +19,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
     @IBAction func rock(_ sender: UIButton) {
+        
         ganador.text = ""
         if let texto1 = num1.text{
             if !texto1.isEmpty{
