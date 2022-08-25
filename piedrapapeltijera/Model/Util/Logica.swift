@@ -28,7 +28,7 @@ public class Logica {
                 return GanadorJuego(imagen: ima, texto: "Ganador: Jugador", p1: p1nuevo, p2: juego.p2)
             } else {
                 if (juego.valor != 4 && diff == 2 || diff == -1) {
-                    let p2nuevo : Int = juego.p1 + 1
+                    let p2nuevo : Int = juego.p2 + 1
                     return GanadorJuego(imagen: ima, texto: "Ganador: CPU", p1: juego.p1, p2: p2nuevo)
                 } else {
                     return GanadorJuego(imagen: ima, texto: "Esas no existen", p1 : juego.p1, p2 : juego.p2)
